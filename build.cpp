@@ -12,6 +12,8 @@ class product{
         _name=_sName;
      }
 
+     
+
      void _setVal(int _i32tVal)
      {
         _number=_i32tVal;
@@ -98,7 +100,7 @@ class Director {
         void construct(){
             builder_obj->buildPartA(10);
             builder_obj->buildPartB(11);
-            // builder_obj->buildPartC(15);
+            //builder_obj->buildPartC(15);
         }
 
  private:
