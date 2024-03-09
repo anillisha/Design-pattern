@@ -1,0 +1,1000 @@
+  623  make docs
+  624  make ../docs
+  625  make ./docs
+  626  make doc
+  627  cd ..
+  628  make docs
+  629  make all
+  630  make docs
+  631  cmake CMakeLists.txt 
+  632  doxygen .
+  633  cd docs/
+  634  doxygen .
+  635  make docs
+  636  cd ..
+  637  make docs
+  638  ls
+  639  doxygen CMakeDoxyfile.in 
+  640  doxygen ..
+  641  make docs
+  642  cmake CMakeLists.txt 
+  643  cd bin/
+  644  ls
+  645  make docs
+  646  cd ..
+  647  make docs
+  648  cmake CMakeLists.txt 
+  649  make docs
+  650  cd bin/
+  651  make docs
+  652  ls
+  653  cmake CMakeLists.txt 
+  654  make docs
+  655  doxygen .
+  656  make docs
+  657  cd bin/
+  658  make docs
+  659  cd ../
+  660  make docs
+  661  cmake CMakeLists.txt 
+  662  make docs
+  663  docs
+  664  make doc
+  665  make docs
+  666  make docs html
+  667  make html
+  668  make docs
+  669  cmake CMakeLists.txt 
+  670  make docs
+  671  cmake CMakeLists.txt 
+  672  make docs
+  673  cmake CMakeLists.txt 
+  674  make docs
+  675  make all
+  676  cd ex01_doxdocgen/
+  677  cmake CMakeLists.txt 
+  678  cd ..
+  679  cmake CMakeLists.txt 
+  680  make all
+  681  make docs
+  682  make doc
+  683  make docs
+  684  code .
+  685  cmake CMakeLists.txt 
+  686  make all
+  687  gedit static_mem_data.cpp
+  688  g++ static_mem_data.cpp -o s1
+  689  ls
+  690  ./s1
+  691  g++ static_mem_data.cpp -o s1
+  692  gedit static_mem_data.cpp
+  693  g++ static_mem_data.cpp -o s1
+  694  ./s1
+  695  Cmake CMakeLists.txt 
+  696  cmake CMakeLists.txt 
+  697  cmake build
+  698  make all
+  699  build git:(master)  camke ..
+  700  build git
+  701  cmake CMakeLists.txt 
+  702  make all
+  703  cpack .
+  704  code .
+  705  addnum
+  706  run addnum
+  707  addnum .
+  708  ./addnum
+  709  cd /
+  710  cd .
+  711  ls
+  712  cd bin
+  713  ls
+  714  cmake CMakeLists.txt 
+  715  pip install gaphor
+  716  sudo apt install python3-pip
+  717  pip install gaphor
+  718  gaphor
+  719  sudo apt install flatpak
+  720  flatpak
+  721  pip install gaphor
+  722  mkdir build
+  723  cd build/
+  724  cmake ..
+  725  ls
+  726  make
+  727  tree ../
+  728  sudo apt  install tree
+  729  tree ../
+  730  ls /usr/local/bin/
+  731  make install
+  732  cd /usr/bin/
+  733  cd ../local/bin/
+  734  ls
+  735  shell build.sh 
+  736  sh build.sh 
+  737  make all
+  738  cd build/
+  739  ls
+  740  make all
+  741  cmake CMakeLists.txt 
+  742  make all
+  743  cmake CMakeLists.txt 
+  744  make all
+  745  cmake CMakeLists.txt 
+  746  cmake CMakeLists.txt 
+  747  make all
+  748  cmake CMakeLists.txt 
+  749  make all
+  750  make all
+  751  cmake CMakeLists.txt 
+  752  make all
+  753  cd lib/
+  754  ./bootstrap 
+  755  cd ..
+  756  cmake CMakeLists.txt 
+  757  make all
+  758  cd app/
+  759  ls
+  760  ./unit_tests 
+  761  code .
+  762  cd Desktop/
+  763  git clone https://github.com/ttroy50/cmake-examples/tree/2b27fc75c40447c8cf9b371cc21224dd96d6ce45/01-basic/E-installing
+  764  git clone https://github.com/ttroy50/cmake-examples/tree/master
+  765  git clone https://github.com/ttroy50/cmake-examples
+  766  mkdir buils
+  767  cd buils/
+  768  cmake ..
+  769  ls
+  770  make all
+  771  cmake ..
+  772  make all
+  773  code .
+  774  cd 01-export/
+  775  cmake --build
+  776  cmake -B build
+  777  cd build/
+  778  ls
+  779  cmake --install /opt/
+  780  cmake --install /opt
+  781  cd ../
+  782  rm -rf build/
+  783  cmake --install /opt
+  784  cmake -S <source-tree> -B <build-tree>
+  785  cmake -S .  -B /build
+  786  cmake -S .  -B build
+  787  cmake -- build
+  788  cmake --install build
+  789  cmake --install ./build
+  790  cmake -S . -B build 
+  791  cmake --build build
+  792  cmake --install build
+  793  sudo cmake --install build
+  794  cd /usr/local/include/
+  795  ls
+  796  cd calc/
+  797  ls
+  798  code .
+  799  gedit Readme.txt
+  800  history test.txt
+  801  history > test.txt
+  802  cd ../
+  803  code .
+  804  cmake -S .  -B build
+  805  cmake -- build
+  806  cmake --build build
+  807  sudo cmake --install build
+  808  ls
+  809  code .
+  810  cd /usr/bin/
+  811  ls
+  812  ls 
+  813  ls *qume
+  814  ls
+  815  ls -l
+  816  rm hello.sh 
+  817  sudo rm hello.sh 
+  818  sudo rm hello
+  819  cd /home/anil/Desktop/
+  820  gedit hello.sh
+  821  chmod +x hello.sh 
+  822  ./hello.sh 
+  823  sudo cp hello.sh /usr/bin
+  824  hello
+  825  hello.sh
+  826  hello
+  827  sudo cp hello /usr/bin
+  828  hello 
+  829  cmake -S . -B build
+  830  cmake --build
+  831  cmake --build build
+  832  cmake --install
+  833  cmake --install build
+  834  sudo cmake --install build
+  835  sudo rm /usr/local/lib/libcalc.a
+  836  history
+  837  cmake -S . -B build
+  838  cmake --build build
+  839  ./addnumapp
+  840  cmake -S. -B build
+  841  cmake --build build
+  842  cd build/
+  843  cpack
+  844  ls
+  845  cd ../
+  846  code .
+  847  cmake -S. -B build
+  848  cmake --build build
+  849  cd build/
+  850  cpack
+  851  cmake -S . -B build
+  852  cmake --build build
+  853  cmake --install build
+  854  sudo cmake --install build
+  855  cd /opt/
+  856  ls
+  857  sudo rm VSM_exe 
+  858  cd -
+  859  cmake -S . -B build
+  860  cmake --build build
+  861  sudo cmake --install build
+  862  cd /opt
+  863  ls
+  864  cd vsm
+  865  ls
+  866  cd logs/
+  867  ls
+  868  cd -
+  869  cd ../
+  870  rm -rf vsm
+  871  sudo rm -rf vsm
+  872  ls
+  873  cd vsm
+  874  ls
+  875  cd lib/
+  876  ls
+  877  cd ../
+  878  app
+  879  cd app/
+  880  ls
+  881  cd ../
+  882  sudo rm -rf vsm/
+  883  ls
+  884  cd vsm
+  885  ls
+  886  cd app
+  887  ls
+  888  ./VSM_exe
+  889  cd ../
+  890  sudo rm -rf vsm/
+  891  cd ../
+  892  sudo rm -rf vsm/
+  893  ls
+  894  cmake -S. -B build
+  895  cmake --build build
+  896  cmake --install build
+  897  sudo cmake --install build
+  898  cmake -S. -B build
+  899  cmake --build build
+  900  sudo cmake --install build
+  901  code .
+  902  cmake -S . -B build
+  903  cmake --build build
+  904  cd build/
+  905  cpack -G DEB
+  906  ls
+  907  cd ../
+  908  rm -rf build/
+  909  cmake -S . -B build
+  910  cd build/
+  911  cmake --build .
+  912  cpack -G DEB
+  913  cmake -S . -B build
+  914  cmake --build build
+  915  cmake --install build
+  916  sudo cmake --install build
+  917  cmake -S . -B build
+  918  cmake --build build
+  919  sudo cmake --install build
+  920  cmake -S . -B build
+  921  cmake --build build
+  922  sudo cmake --install build
+  923  cd /opt/
+  924  ls
+  925  cd vsm
+  926  ls
+  927  cd app/
+  928  ls
+  929  sudo ./VSM_exe
+  930  ls
+  931  ./VSM_exe
+  932  sudo ./VSM_exe
+  933  ls
+  934  ls -l
+  935  sudo su
+  936  ls
+  937  ./VSM_exe
+  938  sudo ./VSM_exe
+  939  cd ../
+  940  sudo rm -rf vsm/
+  941  ls
+  942  cd vsm/
+  943  ls
+  944  cd lib/
+  945  ls
+  946  cd ../
+  947  cd app/
+  948  ls
+  949  sudo ./VSM_exe 
+  950  cd ../lib/
+  951  cd logger/
+  952  chmod 0775 liblogger.so 
+  953  sudo chmod 0775 liblogger.so 
+  954  cd ../vsmlib/
+  955  sudo chmod 0775 *.so
+  956  cd ../../app/
+  957  ls
+  958  sudo ./VSM_exe 
+  959  sudo su
+  960  export LD_RUN_PATH="/opt/vsm/lib/vsmlib"
+  961  export LD_LIBRARY_PATH="/opt/vsm/lib/vsmlib"
+  962  sudo export LD_LIBRARY_PATH="/opt/vsm/lib/vsmlib"
+  963  export LD_LIBRARY_PATH="/opt/vsm/lib/vsmlib"
+  964  sudo ./VSM_exe 
+  965  cd ..
+  966  sudo rm -rf vsm/
+  967  cd vsm/app/
+  968  sudo su
+  969  cd ../../
+  970  sudo rm -rf vsm/
+  971  cd vsm/app/
+  972  sudo -- LD_LIBRARY_PATH="/opt/vsm/lib/vsmlib"
+  973  sudo -- LD_LIBRARY_PATH=/opt/vsm/lib/vsmlib
+  974  sudo -E LD_LIBRARY_PATH=/opt/vsm/lib
+  975  code .
+  976  vi run.sh
+  977  chmod +x run.sh 
+  978  sudo su
+  979  ./run.sh 
+  980  sudo ./run.sh 
+  981  gedit hello
+  982  chmod +x hello 
+  983  ls
+  984  cd /usr/bin/
+  985  ls
+  986  cd -
+  987  sudo cp hello /usr/bin/ 
+  988  hello 
+  989  cd /usr/bin/
+  990  ls
+  991  ls ru*
+  992  cd ../
+  993  cp TASLVSM.sh /usr/bin/
+  994  sudo cp TASLVSM.sh /usr/bin/
+  995  TASLVSM.sh 
+  996  sudo TASLVSM.sh 
+  997  sudo rm /usr/bin/TASLVSM.sh 
+  998  cmake -S . -B build
+  999  cmake --build build
+ 1000  cmake -S . -B build
+ 1001  cmake --build build
+ 1002  code .
+ 1003  gedit fileread.cpp
+ 1004  gedit example.txt
+ 1005  g++ fileread.cpp -o f1
+ 1006  gedit fileread.cpp 
+ 1007  g++ fileread.cpp -o f1
+ 1008  ./f1
+ 1009  gedit fileread.cpp 
+ 1010  g++ fileread.cpp -o f1
+ 1011  gedit fileread.cpp 
+ 1012  g++ fileread.cpp -o f1
+ 1013  gedit fileread.cpp 
+ 1014  g++ fileread.cpp -o f1
+ 1015  ./f1
+ 1016  g++ fileread.cpp -o f1
+ 1017  ./f1
+ 1018  g++ fileread.cpp -o f1
+ 1019  ./f1
+ 1020  g++ fileread.cpp -o f1
+ 1021  ./f1
+ 1022  g++ fileread.cpp -o f1
+ 1023  ./f1
+ 1024  g++ fileread.cpp -o f1
+ 1025  ./f1
+ 1026  g++ fileread.cpp -o f1
+ 1027  ./f1
+ 1028  g++ fileread.cpp -o f1
+ 1029  ./f1
+ 1030  g++ fileread.cpp -o f1
+ 1031  ./f1
+ 1032  g++ fileread.cpp -o f1
+ 1033  ./f1
+ 1034  g++ fileread.cpp -o f1
+ 1035  ./f1
+ 1036  g++ fileread.cpp -o f1
+ 1037  ./f1
+ 1038  g++ fileread.cpp -o f1
+ 1039  ./f1
+ 1040  g++ fileread.cpp -o f1
+ 1041  ./f1
+ 1042  g++ fileread.cpp -o f1
+ 1043  ./f1
+ 1044  g++ fileread.cpp -o f1
+ 1045  ./f1
+ 1046  g++ fileread.cpp -o f1
+ 1047  ./f1
+ 1048  g++ fileread.cpp -o f1
+ 1049  ./f1
+ 1050  g++ fileread.cpp -o f1
+ 1051  ./f1
+ 1052  ls -l
+ 1053  chmod +x compile 
+ 1054  ./compile 
+ 1055  sudo apt-get install gparted
+ 1056  gparted
+ 1057  sudo fdisk -l
+ 1058  sudo apt upgrade
+ 1059  sudo apt update
+ 1060  sudo apt upgrade
+ 1061  g++ strvec.cpp -o s2
+ 1062  ./s2
+ 1063  g++ strvec.cpp -o s2
+ 1064  ./s2
+ 1065  g++ strvec.cpp -o s2
+ 1066  ./s2
+ 1067  g++ strvec.cpp -o s2
+ 1068  ./s2
+ 1069  g++ strvec.cpp -o s2
+ 1070  ./s2
+ 1071  g++ strvec.cpp -o s2
+ 1072  ./s2
+ 1073  g++ strvec.cpp -o s2
+ 1074  ./s2
+ 1075  code .
+ 1076  lsusb
+ 1077  gparted
+ 1078  sudo apt install usbutils
+ 1079  lsusb
+ 1080  sudo fdisk -l
+ 1081  gedit tets.txt
+ 1082  df
+ 1083  ls -l /dev/sda1 
+ 1084  sudo chmod u=rwx,g=rwx,o= /dev/sda3
+ 1085  sudo chmod u=rwx,g=rwx,o= /dev/sda1
+ 1086  ls -l /dev/sda1 
+ 1087  df
+ 1088  ls -l /dev/sda1 
+ 1089  sudo chmod u=rwx,g=rwx,o= /dev/sda1
+ 1090  sudo chown /dev/sda1
+ 1091  sudo chown u=rwx,g=rwx,o= /dev/sda1
+ 1092  sudo chown anil /dev/sda1
+ 1093  sudo apt-get install libc6-dbg gdb valgrind 
+ 1094  gedit tect.cpp
+ 1095  g++ tect.cpp -o t1
+ 1096  gdb t1
+ 1097  ping 192.168.1.1
+ 1098  ssh alish@192.168.1.1
+ 1099  ssh alisha@192.168.1.1
+ 1100  cd /
+ 1101  ssh alisha@192.168.1.1
+ 1102  gedit readme.txt
+ 1103  cd ~
+ 1104  wget -O arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz "https://developer.arm.com/-/media/Files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz?rev=cf8baa0ef2e54e9286f0409cdda4f66c&hash=4E1BA6BFC2C09EA04DBD36C393C9DD3A"
+ 1105  tar xvf arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+ 1106  ln -s arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu gcc-linaro
+ 1107  cd -
+ 1108  gedit readme.txt
+ 1109  $ cd ~
+ 1110  $ wget -O arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz "https://developer.arm.com/-/media/Files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz?rev=cf8baa0ef2e54e9286f0409cdda4f66c&hash=4E1BA6BFC2C09EA04DBD36C393C9DD3A"
+ 1111  $ tar xvf arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+ 1112  $ ln -s arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu gcc-linaro
+ 1113  echo "export ARCH=arm64" >> ~/export_compiler
+ 1114  git clone -b toradex_5.15-2.2.x-imx git://git.toradex.com/linux-toradex.git
+ 1115  git clone -b v6.1.55 git://git.toradex.com/linux-toradex.git
+ 1116  cd linux-toradex/
+ 1117  make -j(nproc) Image.gz 2>&1 | tee build.log
+ 1118  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1119  echo "export ARCH=arm64" >> ~/export_compiler
+ 1120  make -j(nproc) Image.gz 2>&1 | tee build.log
+ 1121  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1122  make -j4 Image.gz 2>&1 | tee build.log
+ 1123  export ARCH=arm64
+ 1124  export DTC_FLAGS="-@"
+ 1125  export PATH=~/gcc-linaro/bin/:PATH
+ 1126  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1127  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1128  echo "export ARCH=arm64" >> ~/export_compiler
+ 1129  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1130  echo "export ARCH=arm64" >> ~/export_compiler
+ 1131  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1132  export ARCH=arm64
+ 1133  export DTC_FLAGS="-@"
+ 1134  export PATH=~/gcc-linaro/bin/:PATH
+ 1135  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1136  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1137  git clone -b v6.1.55 git://git.toradex.com/linux-toradex.git
+ 1138  git clone -b toradex_5.15-2.2.x-imx git://git.toradex.com/linux-toradex.git
+ 1139  pwd
+ 1140  ls
+ 1141  cp kernel-config /home/anil/Desktop/toradex/linux-toradex && cd /home/anil/Desktop/toradexlinux-toradex 
+ 1142  mv kernel-config .config 
+ 1143  make olddefconfig
+ 1144  cd linux-toradex/
+ 1145  mv kernel-config .config 
+ 1146  make olddefconfig
+ 1147  make -j(nproc) Image.gz 2>&1 | tee build.log
+ 1148  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1149  export ARCH=arm64
+ 1150  export DTC_FLAGS="-@"
+ 1151  export PATH=~/gcc-linaro/bin/:PATH
+ 1152  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1153  echo "export ARCH=arm64" >> ~/export_compiler
+ 1154  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1155  echo "export PATH=~/gcc-linaro/bin/:PATH" >> ~/export_compiler
+ 1156  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1157  source ~/export_compiler
+ 1158  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1159  export ARCH=arm64
+ 1160  export DTC_FLAGS="-@"
+ 1161  export PATH=/home/anil/gcc-linaro/bin:PATH
+ 1162  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1163  echo "export ARCH=arm64" >> ~/export_compiler
+ 1164  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1165  tar xvf arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+ 1166  cd ~
+ 1167  $ export ARCH=arm64
+ 1168  $ export DTC_FLAGS="-@"
+ 1169  $ export PATH=~/gcc-linaro/bin/:$PATH
+ 1170  $ export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1171  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1172  cd -
+ 1173  cd ../
+ 1174  wget -O arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz "https://developer.arm.com/-/media/Files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz?rev=cf8baa0ef2e54e9286f0409cdda4f66c&hash=4E1BA6BFC2C09EA04DBD36C393C9DD3A"
+ 1175  cd ~
+ 1176  wget -O arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz "https://developer.arm.com/-/media/Files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz?rev=cf8baa0ef2e54e9286f0409cdda4f66c&hash=4E1BA6BFC2C09EA04DBD36C393C9DD3A"
+ 1177  tar xvf arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+ 1178  cd Desktop/toradex/linux-toradex/
+ 1179  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1180  make DTC_FLAGS="-@" freescale/imx8qm-apalis-v1.1-eval.dtb
+ 1181  export ARCH=arm64
+ 1182  export DTC_FLAGS="-@"
+ 1183  export PATH=/home/anil/gcc-linaro/bin:PATH
+ 1184  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1185  echo "export ARCH=arm64" >> ~/export_compiler
+ 1186  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1187  echo "export PATH=~/gcc-linaro/bin/:PATH" >> ~/export_compiler
+ 1188  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1189  source ~/export_compiler
+ 1190  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1191  export ARCH=arm64
+ 1192  export DTC_FLAGS="-@"
+ 1193  export PATH=/home/anil/gcc-linaro/bin:PATH
+ 1194  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1195  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1196  nproc
+ 1197  wget -O arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz "https://developer.arm.com/-/media/Files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz?rev=cf8baa0ef2e54e9286f0409cdda4f66c&hash=4E1BA6BFC2C09EA04DBD36C393C9DD3A"
+ 1198  tar xvf arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+ 1199  ln -s arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu gcc-linaro
+ 1200  cd linux-toradex/
+ 1201  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1202  echo "export ARCH=arm64" >> ~/export_compiler
+ 1203  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1204  echo "export PATH=~/home/anil/Desktop/toradex/gcc-linaro/bin/:$PATH" >> ~/export_compiler
+ 1205  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1206  source ~/export_compiler
+ 1207  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1208  export ARCH=arm64
+ 1209  export DTC_FLAGS="-@"
+ 1210  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1211  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1212  mv kernel-config .config 
+ 1213  ls
+ 1214  mv kernel-config .config 
+ 1215  make olddefconfig
+ 1216  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1217  make olddefconfig
+ 1218  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1219  make olddefconfig
+ 1220  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1221  echo "export PATH=~/home/anil/Desktop/toradex/gcc-linaro/bin/:$PATH" >> ~/export_compiler
+ 1222  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1223  git clone -b toradex_5.15-2.2.x-imx git://git.toradex.com/linux-toradex.git
+ 1224  export ARCH=arm64
+ 1225  export DTC_FLAGS="-@"
+ 1226  export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:PATH
+ 1227  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1228  echo "export ARCH=arm64" >> ~/export_compiler
+ 1229  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1230  echo "export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:PATH" >> ~/export_compiler
+ 1231  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1232  source ~/export_compiler
+ 1233  mv kernel-config .config 
+ 1234  cd linux-toradex/
+ 1235  mv kernel-config .config 
+ 1236  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1237  echo "export ARCH=arm64" >> ~/export_compiler
+ 1238  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1239  echo "export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:PATH" >> ~/export_compiler
+ 1240  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1241  source ~/export_compiler
+ 1242  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1243  export ARCH=arm64
+ 1244  export DTC_FLAGS="-@"
+ 1245  export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:PATH
+ 1246  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1247  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1248  export ARCH=arm64
+ 1249  export DTC_FLAGS="-@"
+ 1250  export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:$PATH
+ 1251  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1252  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1253  export ARCH=arm64
+ 1254  export DTC_FLAGS="-@"
+ 1255  export PATH=/home/anil/gcc-linaro/bin:PATH
+ 1256  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1257  echo "export ARCH=arm64" >> ~/export_compiler
+ 1258  echo "export DTC_FLAGS='-@'" >> ~/export_compiler
+ 1259  echo "export PATH=~/gcc-linaro/bin/:PATH" >> ~/export_compiler
+ 1260  echo "export CROSS_COMPILE=aarch64-none-linux-gnu-" >> ~/export_compiler
+ 1261  source ~/export_compiler
+ 1262  make defconfig
+ 1263  export ARCH=arm64
+ 1264  export DTC_FLAGS="-@"
+ 1265  export PATH=/home/anil/gcc-linaro/bin:PATH
+ 1266  export ARCH=arm64
+ 1267  export DTC_FLAGS="-@"
+ 1268  export PATH=/home/anil/Desktop/toradex/gcc-linaro/bin/:$PATH
+ 1269  export CROSS_COMPILE=aarch64-none-linux-gnu-
+ 1270  make defconfig
+ 1271  make -j$(nproc) Image.gz 2>&1 | tee build.log
+ 1272  make DTC_FLAGS="-@" freescale/imx8qm-apalis-v1.1-eval.dtb
+ 1273  ls ./arch/arm64/boot/Image.gz
+ 1274  ls ./arch/arm64/boot/dts/freescale/imx8qm-apalis-v1.1-eval.dtb
+ 1275  make -j$(nproc) modules
+ 1276  mkdir modules
+ 1277  export INSTALL_MOD_PATH=modules
+ 1278  make modules_install
+ 1279  cd modules
+ 1280  tar -czf ../modules.tar.gz .
+ 1281  sync
+ 1282  ls 
+ 1283  cd .
+ 1284  cd ..
+ 1285  ls
+ 1286  find -name "imx8-apalis-v1.1.dtsi"
+ 1287  gedit ./arch/arm64/boot/dts/freescale/imx8-apalis-v1.1.dtsi
+ 1288  grep -r "USB3503A"
+ 1289  gedit arch/arm64/boot/dts/freescale/imx8-apalis-v1.1.dtsi
+ 1290  code .
+ 1291  sudo code .
+ 1292  cd meta
+ 1293  cd ../
+ 1294  source oe-init-build-env build/
+ 1295  bitbake core-image-sato
+ 1296  ls
+ 1297  gedit ./conf/bitbake.conf
+ 1298  find -name "bitbake.conf"
+ 1299  ssh alisha@192.168.1.1
+ 1300  ncpus
+ 1301  sudo apt install mdm
+ 1302  ncpus
+ 1303  ssh alisha@192.168.1.1
+ 1304  cd 
+ 1305  source oe-init-build-env build/
+ 1306  cd poky/
+ 1307  source oe-init-build-env build/
+ 1308  bitbake core-image-minimal
+ 1309  bitbake core-image-minimal 
+ 1310  bitbake core-image-sato
+ 1311  ls
+ 1312  bitbake core-image-minimal
+ 1313  source oe-init-build-env build
+ 1314  bitbake-layer show layer
+ 1315  bitbake-layers show-layers
+ 1316  git clone https://github.com/meta-qt5/meta-qt5
+ 1317  git clone https://github.com/meta-qt5/meta-qt5.git
+ 1318  cd 
+ 1319  ssh alisha@192.168.1.1
+ 1320  cd
+ 1321  ssh alisha@192.168.1.1
+ 1322  cd /
+ 1323  ssh alisha@192.168.1.1
+ 1324  cd /
+ 1325  ssh alisha@192.168.1.1
+ 1326  ls
+ 1327  yocto-check-layer meta-app
+ 1328  find -name "core-image.bbclass"
+ 1329  find name "core-image.bbclass"
+ 1330  ls
+ 1331  cd /
+ 1332  ssh alisha@192.168.1.1
+ 1333  recipetool -h
+ 1334  md5sum MIT
+ 1335  md5sum MirOs
+ 1336  md5sum MirOS
+ 1337  finf -name "mycprog_0.1.bb"
+ 1338  find -name "mycprog_0.1.bb"
+ 1339  md5sum MIT
+ 1340  cd poky/build/tmp/work/qemux86_64-poky-linux/
+ 1341  ls
+ 1342  cd ../
+ 1343  cd core2-64-poky-linux/
+ 1344  ls
+ 1345  cd ../
+ 1346  cd ..
+ 1347  ls
+ 1348  cd deploy/
+ 1349  ls
+ 1350  cd images/
+ 1351  ls
+ 1352  cd qemux86-64/
+ 1353  ls
+ 1354  cd ../
+ 1355  ls
+ 1356  cd ../
+ 1357  ls
+ 1358  cd work
+ 1359  ls
+ 1360  cd core2-64-poky-linux/
+ 1361  ls
+ 1362  cd mycprog/
+ 1363  ls
+ 1364  tree 
+ 1365  cd 0.1-r0/
+ 1366  ls
+ 1367  tree
+ 1368  tree package-split/
+ 1369  cd ../
+ 1370  ls
+ 1371  cd core2-64-poky-linux/
+ 1372  ls
+ 1373  cd mycprog/
+ 1374  cd 0.1-r0/
+ 1375  ls
+ 1376  cd ../
+ 1377  ls
+ 1378  cd qemux86_64-poky-linux/
+ 1379  ls
+ 1380  cd myapp-image/
+ 1381  ls
+ 1382  cd 1.0-r0/
+ 1383  ls
+ 1384  cd temp/
+ 1385  ls
+ 1386  cd ../
+ 1387  ls
+ 1388  cd ..
+ 1389  ls
+ 1390  cd 1.0-r0/
+ 1391  cd ../
+ 1392  ls
+ 1393  cd core2-64-poky-linux/
+ 1394  ls
+ 1395  cd mycprog/
+ 1396  ls
+ 1397  cd 0.1-r0/
+ 1398  ls
+ 1399  cd temp/
+ 1400  ls
+ 1401  cd ../
+ 1402  cd ..
+ 1403  cd ../
+ 1404  tree | grep -n "mycapp"
+ 1405  tree | grep "mycapp"
+ 1406  cd work
+ 1407  ls
+ 1408  cd core2-64-poky-linux/
+ 1409  ls
+ 1410  cd mycprog/
+ 1411  ls
+ 1412  cd 0.1-r0/
+ 1413  ls
+ 1414  tree deploy-rpms/
+ 1415  cd sstate-install-package_write_rpm/
+ 1416  ls
+ 1417  cd ../
+ 1418  cd temp/
+ 1419  ls
+ 1420  tree -
+ 1421  tree 
+ 1422  cd ..
+ 1423  ls
+ 1424  ls ../
+ 1425  cd ..
+ 1426  cd poky/build/
+ 1427  ls
+ 1428  cd temp
+ 1429  cd tmp/
+ 1430  cd work/
+ 1431  ls
+ 1432  cd core2-64-poky-linux/
+ 1433  ls
+ 1434  cd mycprog/
+ 1435  ls
+ 1436  cd 0.1-r0/
+ 1437  ls
+ 1438  cd temp/
+ 1439  ls
+ 1440  vi log.do_cleanall
+ 1441  cd ..
+ 1442  ls
+ 1443  cd ../
+ 1444  cd ..
+ 1445  ssh alisha@192.168.1.1
+ 1446  sudo putty
+ 1447  lsusb
+ 1448  cd /dev/
+ 1449  ls 
+ 1450  ls ttyUSB*
+ 1451  cd poky/build/
+ 1452  ls
+ 1453  cd tmp/log/
+ 1454  ls cooker/
+ 1455  cd cooker/qemux86-64/
+ 1456  ls
+ 1457  ls console-latest.log -al
+ 1458  sudo dpkg -i imager_1.8.4_amd64.deb 
+ 1459  sudo apt install rpi-imager
+ 1460  sudo apt --fix-broken install
+ 1461  sudo apt install rpi-imager
+ 1462  snap install rpi-imager
+ 1463  ssh alisha@192.168.1.1
+ 1464  g++ factory.cpp -o f1
+ 1465  ./f1
+ 1466  g++ factory2.cpp -o f2
+ 1467  .f2
+ 1468  ./f2
+ 1469  doxygen -g
+ 1470  g++ factory2.cpp -o f2
+ 1471  ./f2
+ 1472  g++ factory2.cpp -o f2
+ 1473  ./f2
+ 1474  ./f1
+ 1475  g++ factory2.cpp -o f2
+ 1476  ./f2
+ 1477  g++ factory2.cpp -o f2
+ 1478  ./f2
+ 1479  g++ factory.cpp -o f2
+ 1480  ./f2
+ 1481  g++ main.cc -o m1
+ 1482  ls
+ 1483  cd Conceptual/
+ 1484  g++ main.cc -o m1
+ 1485  ./m1
+ 1486  g++ main.cc -o m1
+ 1487  ./m1
+ 1488  code .
+ 1489  doxygen .
+ 1490  sudo apt install graphviz
+ 1491  code .
+ 1492  gitclone git://git.yoctoproject.org/meta-raspberrypi4
+ 1493  git clone git://git.yoctoproject.org/meta-raspberrypi4
+ 1494  git clone https://git.yoctoproject.org/meta-raspberrypi
+ 1495  sudo apt install rar
+ 1496  reboot
+ 1497  code .
+ 1498  code  .
+ 1499  code .
+ 1500  code .
+ 1501  g++ withLSP.cpp -o l1
+ 1502  ./l1
+ 1503  g++ withLSP.cpp -o l1
+ 1504  ./l1
+ 1505  g++ withLSP.cpp -o l1
+ 1506  ./l1
+ 1507  ls
+ 1508  code .
+ 1509  sudo code .
+ 1510  ssh alish@192.168.1.1
+ 1511  cd 
+ 1512  ssh alish@192.168.1.1
+ 1513  ifconfig
+ 1514  ssh alisha@192.168.1.1
+ 1515  ls
+ 1516  cd rpiyocto/
+ 1517  ls
+ 1518  tree .
+ 1519  ls
+ 1520  source poky/oe-init-build-env mybuild
+ 1521  yocto-layer create ypdd
+ 1522  bitbake-layers create-layer ../meta-custom
+ 1523  bitbake-layer create-layer ../meta-custom
+ 1524  bitbake-layers --help
+ 1525  bitbake-layers 
+ 1526  cp ./tmp/work-shared/raspberrypi4/kernel-source/arch/arm/boot/dts/bcm2711-rpi-4-b.dts patch/
+ 1527  cp mybuild/tmp/work-shared/raspberrypi4/kernel-source/arch/arm/boot/dts/bcm2711-rpi-4-b.dts patch/
+ 1528  ssh alisha@192.168.1.1
+ 1529  ssh alisha@192.168.1.1
+ 1530  mkdir -p recipes-kernel/linux/linux-raspberrypi
+ 1531  vi recipes-kernel/linux/linux-raspberrypi_6.1.%.bbappend
+ 1532  tree .
+ 1533  cd recipes-kernel/linux/linux-raspberrypi/
+ 1534  ls
+ 1535  cp /home/alisha/Desktop/rpiyocto/mybuild/tmp/work/raspberrypi4-poky-linux-gnueabi/linux-raspberrypi/6.1.61+git/linux-raspberrypi4-standard-build/defconfig .
+ 1536  cp bcm2711-rpi-4-b.dts bcm2711-rpi-4-b.dts.orig
+ 1537  vi bcm2711-rpi-4-b.dts
+ 1538  git diff --no-index bcm2711-rpi-4-b.dts.orig bcm2711-rpi-4-b.dts > 0001-add-test-dts.patch
+ 1539  vi 0001-add-test-dts.patch 
+ 1540  cd ../
+ 1541  cd meta-mycstm/
+ 1542  mkdir -p recipes-kernel/linux/rpi/
+ 1543  cp ../patch/0001-add-test-dts.patch recipes-kernel/linux/rpi/
+ 1544  vi recipes-kernel/linux/linux-rpi_%.bbappend
+ 1545  ssh alisha@192.168.1.1
+ 1546  ssh alisha@192.168.1.1
+ 1547  ssh alisha@192.168.1.1
+ 1548  source poky/oe-init-build-env mybuild
+ 1549  ssh alisha@192.168.1.1
+ 1550  sudo putty
+ 1551  cd /dev/
+ 1552  ls
+ 1553  ls ttyUSB*
+ 1554  sudo putty
+ 1555  gedit -p git/meta-cstm
+ 1556  mkdir -p git
+ 1557  cd git | gedit readme.txt
+ 1558  code .
+ 1559  code  .
+ 1560  python3 client.py 
+ 1561  code.
+ 1562  code .
+ 1563  git init
+ 1564  git add build.cpp 
+ 1565  git commit -m "first commit"
+ 1566  git branch -M main
+ 1567  git remote add origin https://github.com/anillisha/Design-pattern.git
+ 1568  git branch -M main
+ 1569  git push -u origin main
+ 1570  g++ build.cpp -o b1
+ 1571  ./b1
+ 1572  git remote add origin https://github.com/anillisha/Design-pattern.git
+ 1573  ./b1
+ 1574  g++ build.cpp -o b1
+ 1575  ./b1
+ 1576  echo "# Builder Design pattern " >> README.md
+ 1577  git init
+ 1578  git add README.md 
+ 1579  git commit -m "first commit"
+ 1580  git config --global user.email "anilkumarkaushik2906@gmail.com"
+ 1581  git config --global user.name "Anil Kumar"
+ 1582  git commit -m "first commit"
+ 1583  git status
+ 1584  git branch -M main
+ 1585  git remote add origin https://github.com/anillisha/Design-pattern.git
+ 1586  git push -u origin main
+ 1587  git add build.cpp 
+ 1588  git push -u origin main
+ 1589  git add build.cpp 
+ 1590  git commit -m "Builder working"
+ 1591  git push -u origin main
+ 1592  echo "# yocto custom layer" >> README.md
+ 1593  git init
+ 1594  git add README.md 
+ 1595  git commit -m "First commit"
+ 1596  git branch -M main
+ 1597  git remote add origin https://github.com/anillisha/meta-cstm.git
+ 1598  git push -u origin main
+ 1599  git remote add origin https://github.com/anillisha/meta-cstm.git
+ 1600  git push -u origin main
+ 1601  git remote add origin https://github.com/anillisha/meta-cstm.git
+ 1602  echo "# meta-cstm" >> README.md
+ 1603  git init
+ 1604  git add README.md
+ 1605  git commit -m "first commit"
+ 1606  git branch -M main
+ 1607  git remote add origin https://github.com/anillisha/meta-cstm.git
+ 1608  git push -u origin main
+ 1609  git config 
+ 1610  git push -u origin main
+ 1611  code .
+ 1612  code.
+ 1613  code .
+ 1614  sudo apt install brave-browser
+ 1615  sudo apt install curl
+ 1616  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+ 1617  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+ 1618  sudo apt update
+ 1619  sudo apt install brave-browser
+ 1620  git init
+ 1621  histort > history.txt
+ 1622  history > history.txt
